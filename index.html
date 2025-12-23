@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABB</title>
+    <link rel="icon" type="image/jpeg" href="Abb-logo.png">
+</head>
+
+<body>
+    <header>
+        <a href="https://abb-bank.az"><img src="Abb-logo.png" alt="Abb logo" width="30"></a>
+        <a href="register.html">Register</a>
+        <a href="login.html">Login</a>
+    </header>
+
+    <main>
+        <ul>
+            <li>
+                <section>
+                    Sürətli keçid
+                </section>
+            </li>
+            <li>
+                <section>
+                    Tam DigiCard
+                </section>
+            </li>
+            <li>
+                <section>
+                    Kredit limitinizi öyrenin
+                </section>
+            </li>
+        </ul>
+
+        <article>
+            <h1 style="color: brown;">Azərbaycan Beynəlxalq Bankı</h1>
+        </article>
+
+        <form action="" method="get">
+
+            <label for="Loadfile">Load file</label>
+            <input type="file" name="file" id="Loadfile" accept="image/*" multiple><br>
+            <hr>
+
+            <label for="Language">Language</label><br>
+            <input type="checkbox" name="Language" id="Language">az <br>
+            <input type="checkbox" name="Language" id="Language">eng <br>
+            <input type="checkbox" name="Language" id="Language">ru <br>
+            <hr>
+
+            <label for="city">City</label>
+            <select name="city" id="city" size="3" multiple>
+                <option value="baku">Bakı</option>
+                <option value="milan" selected>Milan</option>
+                <option value="paris">Paris</option>
+                <option value="madrid">Madrid</option>
+                <option value="roma">Roma</option>
+                <option value="barcelona">Barcelona</option>
+            </select><br>
+            <hr>
+
+            <label for="textarea">Qeyd əlavə edin</label><br>
+            <textarea name="textarea" id="textarea" rows="4" cols="40" maxlength="300" minlength="10" wrap="soft">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione, nihil minus! Dignissimos mollitia debitis sunt quaerat, sint cum tempore tenetur maiores? Accusamus, nam velit ad sunt libero quasi minus repudiandae!
+            </textarea><br>
+            <hr>
+
+            <label for="country">Ölkə</label>
+            <input type="text" id="country" name="country" list="countryList" placeholder="Ölkə yazın">
+
+            <datalist id="countryList">
+                <option value="Azərbaycan">
+                <option value="İspaniya">
+                <option value="Fransa">
+                <option value="İtaliya">
+            </datalist>
+        </form>
+
+    </main>
+
+</body>
+<footer>
+    <p style="color: red;">2025 ABB Website</p>
+</footer>
+
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABB</title>
+    <link rel="icon" type="image/jpeg" href="Abb-logo.png">
+</head>
+<body>
+    <header>
+            <h1 style="color: blue;">Register</h1>
+    </header>
+    <main>
+        <form action="" method="get">
+            <label for="usernam-register">Username</label>
+            <input type="text" id="usernam-register" name="usernam-register" placeholder="username" required><br>
+            <hr>
+
+            <label for="surname">Surname</label>
+            <input type="text" id="surname" name="surname" placeholder="Surname" required autofocus maxlength="10"><br>
+            <hr>
+
+            <label for="email-register">Email</label>
+            <input type="email" id="email-register" name="email-register" aria-required="true" autocomplete="email" spellcheck="false" placeholder="Email"
+                required><br>
+            <hr>
+
+            <label style="color: purple;" for="Birthday">Birrhday</label>
+            <input type="date" id="Birrhday" name="date"><br>
+            <hr>
+
+            <label for="number">Phone Number</label>
+            <input type="tel" id="number" name="number" placeholder="Phone Number" title="Nümunə: 0501234567"
+                pattern="05[0-9]{8}">
+            <hr>
+
+            <label for="gender">Gender</label><br>
+            <input type="radio" name="gender" id="gender-male"> Male
+            <input type="radio" name="gender" id="gender-female"> Female
+            <hr>
+
+            <label for="password-register">Password</label>
+            <input type="password" id="password-register" name="password-register" required placeholder="password" minlength="8"
+                autocomplete="new-password"><br><hr>
+            
+                <label for="confirmPassword">Confirm Password</label>
+            <input type="password" id="confirmPassword" name="confirmPassword" required placeholder="Confirm Password" minlength="8"> <br>
+
+
+            <!-- <button  type="submit">submit</button> -->
+            <input style="color: green; background: fixed;" type="submit" aria-label="submit"  value="submit"><br>
+            
+
+
+
+        </form>
+    </main>
+</body>
+
+<footer>
+    <p style="color: red;">2025 ABB Website</p>
+</footer>
+</html>
